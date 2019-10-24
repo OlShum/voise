@@ -1,0 +1,22 @@
+.ButtonSet {
+  font-family: 'Kumar One', cursive;
+  font-weight: normal;
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .Button {
+    padding: 2px;
+    width: 20px;
+    height: 17.6px;
+    position: relative;
+    margin-bottom: 2px;
+    // background: grey;
+    border: 2px solid #0a122a;
+
+    &.on {
+      background-color: #ef626c;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.Slider {
+  margin-bottom: 10px;
+  margin-right: 32px;
+  position: relative;
+  width: 20px;
+  height: 105px;
+  // background: grey;
+  border: 2px solid #0a122a;
+
+  .thumb {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ef626c;
+  }
+}

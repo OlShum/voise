@@ -1,0 +1,18 @@
+.Knob {
+  margin-top: 5px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #ef626c;
+  border-radius: 50%;
+
+  &::before {
+    position: absolute;
+    top: calc(50% - 2px);
+    display: block;
+    content: '';
+    width: 40%;
+    height: 4px;
+    background: #fdf3e7;
+  }
+}

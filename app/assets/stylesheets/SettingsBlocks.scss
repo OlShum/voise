@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One&display=swap');
+
+$default-font-family: 'Bungee Shade';
+
+.title {
+  z-index: -1;
+  top: 160px;
+  left: 10px;
+}
+
+.body {
+  z-index: 10000;
+  flex-direction: row;
+  // padding-top: 30px;
+  max-width: 1300px;
+  font-family: 'Kumar One', cursive;
+  font-weight: bold;
+
+  .pageBlock {
+    display: block;
+    padding-bottom: 20px;
+
+    .sliderBlock {
+      margin-left: 33%;
+      display: flex;
+    }
+
+    .loopBlock {
+      text-align: center;
+      margin-left: 16%;
+      background-color: #4392f1;
+      border: 10px solid #fdf3e7;
+      display: flex;
+      width: 805px;
+      height: 210px;
+      padding: 40px;
+
+      .playLoop {
+        display: block;
+        position: relative;
+        margin: 5px;
+        padding: 20px;
+        width: 140px;
+        height: 140px;
+        border: 5px solid #fdf3e7;
+        border-radius: 50%;
+        // box-shadow: 0 0 10px #e6e8e6;
+        background-color: #0a122a;
+
+        .PolySynth {
+          .WaveButton {
+            border-radius: 50%;
+            width: 135px;
+            height: 135px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .allSetBlocks {
+      margin-left: 8.5%;
+
+      .setBlock {
+        display: inline-flex;
+        position: relative;
+        margin: 2px;
+        padding: 10px 15px;
+        width: 145px;
+        height: 175px;
+        border: 2px solid #e59f71;
+        background-color: #fdf3e7;
+
+        .changeSetBlock {
+          display: flex;
+          margin-top: 10px;
+          font-family: serif;
+        }
+      }
+    }
+  }
+}

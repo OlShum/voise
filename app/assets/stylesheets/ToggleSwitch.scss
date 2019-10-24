@@ -1,0 +1,43 @@
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.WaveButton {
+  font-weight: bold;
+  display: inline-block;
+  width: 138px;
+  height: 100%;
+  background: #fdf3e7;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #0a122a;
+
+  &.sine {
+    color: red;
+  }
+  &.square {
+    color: green;
+  }
+  &.sawtooth {
+    color: blue;
+  }
+  &.triangle {
+    color: pink;
+  }
+
+  &.on {
+    background: #ef626c;
+    color: white;
+    background: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+  }
+}

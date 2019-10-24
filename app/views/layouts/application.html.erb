@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synth</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_pack_tag 'application' %>
+    <%# <%= javascript_pack_tag 'thereminvox' %>
+    <%= javascript_pack_tag 'synth' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
